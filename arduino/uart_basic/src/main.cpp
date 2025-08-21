@@ -12,7 +12,6 @@ const char ECHO_PREFIX[] = "ECHO: ";
 void setup() {
     // Initialize UART
     Serial.begin(BAUDRATE);
-    Serial.setTimeout(100);  
     
     // Wait for setup
     while (!Serial) delay(10);      // Blocking delay
