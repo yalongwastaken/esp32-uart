@@ -1,5 +1,7 @@
 // Author: Anthony Yalong
-// Desceription: 
+// Description: UART command parser for ESP32-WROOM-32E that provides serial interface
+//              for LED control, system monitoring, and diagnostics. Supports multi-parameter
+//              commands with real-time statistics tracking and system information display.
 // Improvements:
 //     - Add error management & backup LED value initialization
 //     - Use char[] instead of String
